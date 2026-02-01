@@ -1,0 +1,40 @@
+{
+  "plans": {
+    "free": {
+      "name": "Free",
+      "price": 0,
+      "daily_prompt_limit": 20,
+      "image_quality": "standard",
+      "research_depth": "limited",
+      "features": ["General chat", "Basic images", "Education NotebookLM"],
+      "tier_key": "free"
+    },
+    "premium": {
+      "name": "Premium",
+      "price": 9.99,
+      "daily_prompt_limit": 200,
+      "image_quality": "high",
+      "research_depth": "faster",
+      "features": ["Improved responses", "Better images", "NotebookLM"],
+      "tier_key": "premium"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": 29.99,
+      "daily_prompt_limit": 1000,
+      "image_quality": "very_high",
+      "research_depth": "advanced",
+      "features": ["Website builder assistant", "Longer memory", "Advanced research"],
+      "tier_key": "pro"
+    },
+    "promax": {
+      "name": "Pro Max",
+      "price": 99.99,
+      "daily_prompt_limit": -1,
+      "image_quality": "ultra",
+      "research_depth": "deep",
+      "features": ["Unlimited prompts", "Long-term memory", "Early access"],
+      "tier_key": "promax"
+    }
+  }
+}
